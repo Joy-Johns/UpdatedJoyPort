@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: .25%;
+    margin: .25%;
+}
+
+body {
+    background-color: aqua;
+}
+
+header {
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    color:aliceblue;
+}
+
+.subheader {
+    color:deeppink;
+    text-indent: 70px;
+    text-align: right;
+}
+.nav {
+    color: brown;
+    
+}
+
+
+
+
+.flowers {
+    height: 150px;
+    width: 100%;
+}
+
+
+
+.no_bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    position:
+  }
