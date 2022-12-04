@@ -1,43 +1,63 @@
 * {
     box-sizing: border-box;
-    padding: .25%;
-    margin: .25%;
+    padding: 2px;
+    margin: 0%;
 }
 
 body {
-    background-color: aqua;
+    background-color:rgb(172, 168, 168);
 }
 
 header {
-    background-color: blue;
+    background-color:rgb(172, 168, 168);
     padding: 20px;
     display: flex;
-    color:aliceblue;
-}
-
-.subheader {
-    color:deeppink;
-    text-indent: 70px;
-    text-align: right;
-}
-.nav {
-    color: brown;
+    color:rgb(94, 17, 104);
     
 }
 
-
-
-
-.flowers {
-    height: 150px;
-    width: 100%;
+ /* Below are the parameters for my navigation options */
+.subheader { 
+    width: 20%;
+    padding: 10px;
+    text-indent: 70px;
+    text-align: right;
+    display:block;
+    margin: right;
+    color:blueviolet;
 }
 
+/* Below are my project photos */
+.imgPhoto {
+    width: 25%;
+    height: 150px;
+    border:5px solid black;
+}
 
+/* The part below helps me to title my project images */
+.container {
+    position:relative;
+}
 
-.no_bullets {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
-    position:
-  }
+ .text-block { 
+    width: 23.5%;
+    position: absolute;
+    left: 10px;
+    bottom: 12px;
+    color: rgb(25, 23, 25);
+    font-size: 17px;
+    font-weight:bold ;
+    padding: 4px;
+   }
+
+/* The part below helps my image grow once I hover over it (https://thebrandsmen.com/css-image-hover-effects/)*/
+#grow img {
+    transition: 1s ease;
+}
+  
+#grow img:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.05);
+    transition: 1s ease;
+ }
