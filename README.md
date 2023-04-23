@@ -25,4 +25,4 @@
 
   ## Questions
   Should you have any questions or concerns about this repo, feel free to launch an issue or email me at 
-  JRJ20716@gmail.com. To see more of my projects, visit https://github.com/Joy-Johns. a total of four submissions.
+  JRJ20716@gmail.com. To see more of my projects, visit https://github.com/Joy-Johns. 
